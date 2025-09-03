@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+@font-face{
+    font-family: 'Canva Sans';
+    src: url('../Fonts/canva-sans-regular.otf') format('truetype');
+}
+
+header{
+    /* width: 100%; */
+    background-color:white;
+    /* color: #fff; */
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 10vh;
+}
+.logo{
+    display: flex;
+}
+.logo h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Canva Sans";
+    color: navy;
+    margin-left: 10px;
+}
+
+.logo .img1{
+    width: 35px; 
+    height: 55px;
+}
+
+
+.logo .img2{
+    width: 70px; 
+    height: 80px;
+    margin-top: -10px;
+    
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li{
+    margin-right: 15px;
+}
+nav a{
+    color: #333;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 10px;
+    font: 1em sans-serif;
+}
+nav a:hover{
+    color: rgb(68, 25, 193);
+    font-weight: bold;
+}
+#got-questions {
+    background-color: navy;
+    padding: 20px 0;
+    width: 98.3vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 200px; */
+    /* margin-top: 200px; */
+  }
+
+  .image-wrapper {
+    margin-top: -100px;
+    margin-bottom: 280px;
+    display: flex;
+    justify-content: center;
+    margin-left: -55px;
+  }
+  
+  .center-image {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  
+  }
+  
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  #got-questions .logo-wrapper {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    
+
+  }
+  #got-questions .title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  
+  #got-questions .logo {
+    width: 90px;
+    height: 100px;
+    margin-left: -45px;
+    position: relative;
+    bottom: -10px;
+  }
+  
+  
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: -30px;
+  }
+  
+  .title-wrapper {
+    margin-left: 10px;
+  }
+    
+  
+  
+  #got-questions h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 70px;
+    margin-left: -25px;
+  }
+  #got-questions .title-wrapper p {
+    color: #fff;
+    font-size: 25px;
+    margin-top: -5px;
+    text-align: center;
+    margin-right: 70px;
+  }
+  .question-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    margin-bottom: 150px;
+    margin-top: -350px;
+    justify-content: center; 
+  }
+  
+  #got-questions .card {
+    border-radius: -10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    font-size: 20px;
+  }
+  
+
+  #got-questions .card img {
+    width: 310px;
+    height: 300px; /* increased image height */
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: auto;
+  }
+  
+  
+  
+  #got-questions .card:hover {
+    transform: scale(1.05);
+    transition: all 0.3sn ease-in-out;
+  }
+  
+
+  
+  
+  
+
+
+ 
+  
+  
